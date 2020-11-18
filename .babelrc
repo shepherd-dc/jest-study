@@ -8,15 +8,16 @@
         "corejs": 3, //core-js版本
         // "modules": false, //模块使用es modules, 不使用commonJS规范
         "targets": { //设置目标浏览器（根据browserslist）或对应的环境
-          "browsers": [
-            "last 2 Chrome major versions",
-            "last 2 Firefox major versions",
-            "last 2 Safari major versions",
-            "last 2 Edge major versions",
-            "last 2 iOS major versions",
-            "last 2 ChromeAndroid major versions"
-          ],
-          "ie": "11"
+          // "browsers": [
+          //   "last 2 Chrome major versions",
+          //   "last 2 Firefox major versions",
+          //   "last 2 Safari major versions",
+          //   "last 2 Edge major versions",
+          //   "last 2 iOS major versions",
+          //   "last 2 ChromeAndroid major versions"
+          // ],
+          // "ie": "11",
+          "node": "current"
         }
       }
     ]
