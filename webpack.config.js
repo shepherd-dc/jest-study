@@ -89,7 +89,10 @@ module.exports = {
     hot: true,
     inline: true,
     progress: true,
-    open: true
+    open: true,
+    headers: {
+      'Access-Control-Allow-Origin': '*'
+    }
   },
   plugins: [
     new HtmlWebPackPlugin({
